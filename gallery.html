@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>图片展示</title>
+</head>
+<body>
+    <h1>图片画廊</h1>
+    <div>
+        {% for image in images %}
+            <img src="{{ image }}" alt="图片" style="width: 200px; height: auto;">
+        {% endfor %}
+    </div>
+</body>
+</html>
